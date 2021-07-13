@@ -5,3 +5,6 @@ detectron2란 FAIR(Facebook Artificial Intelligence Research)에서 만든 pytor
 Detectron2가 다른 오픈 소스들에 비해 빠른이유는 python 최적화가 잘되어있기도 합니다만, 그 외에 연산량이 많이 드는 부분을 python이 아닌 CUDA와 C로 구현했기에 보다 좋은 성능을 냈습니다. box iou를 계산하는 부분이나, defromable conv 부분 등은 연산량이 많이 드는 부분인데, 이 부분을 CUDA로 구현하였다.
 
 ![image](https://user-images.githubusercontent.com/81723414/125381907-b5a29a80-e3cf-11eb-97c3-96338d43c50c.png)
+
+주피터 실행과정
+https://velog.io/@rcchun/%EB%94%A5%EB%9F%AC%EB%8B%9D-Instance-Segmentation
